@@ -56,7 +56,7 @@
       <AssemblyReference>NPOI</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="376,306" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="376,417" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Test" />
     </Sequence.Variables>
@@ -74,5 +74,6 @@
       </Assign.Value>
     </Assign>
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,94" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Test branch&quot;]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,71" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Test" />
   </Sequence>
 </Activity>
